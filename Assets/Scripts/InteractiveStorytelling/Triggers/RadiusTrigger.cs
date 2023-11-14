@@ -15,6 +15,9 @@ namespace InteractiveStorytelling
         // Start is called before the first frame update
         void Start()
         {
+            // Ensures that BaseTrigger.Start() gets called.
+            base.Start();
+
             // Gets the initial position of the trigger since it won't
             // move and by doing this you are getting a bit more performance.
             //

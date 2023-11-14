@@ -9,6 +9,8 @@ namespace InteractiveStorytelling
         /// Method that gets called whenever a trigger need an action to be
         /// performed.
         /// </summary>
-        public void PerfomAction();
+        /// <param name="triggerName">Name of the trigger that triggered
+        /// this action.</param>
+        public void PerfomAction(string triggerName);
     }
 }

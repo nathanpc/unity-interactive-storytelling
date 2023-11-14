@@ -8,7 +8,7 @@ namespace InteractiveStorytelling
     {
         public bool finalState = true;
 
-        override public void PerfomAction()
+        override public void PerfomAction(string triggerName)
         {
             gameObject.SetActive(finalState);
         }

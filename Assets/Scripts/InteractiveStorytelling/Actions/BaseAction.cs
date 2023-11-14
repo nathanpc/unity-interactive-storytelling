@@ -9,7 +9,7 @@ namespace InteractiveStorytelling
     /// </summary>
     public class BaseAction : MonoBehaviour, IAction
     {
-        virtual public void PerfomAction()
+        virtual public void PerfomAction(string triggerName)
         {
             // REMEMBER TO USE OVERRIDE IN THE INHERITED CLASS. :)
             throw new System.NotImplementedException();
