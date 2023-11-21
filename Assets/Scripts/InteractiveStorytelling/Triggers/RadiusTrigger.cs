@@ -45,5 +45,11 @@ namespace InteractiveStorytelling
                 TriggerAction();
             }
         }
+
+        void OnDrawGizmos()
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, interactionRange);
+        }
     }
 }
